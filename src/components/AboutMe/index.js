@@ -15,7 +15,7 @@ class About extends Component {
           style={{ width: 360 }}
           cover={<img alt="myPhoto" src={MyPhoto} />}
         >
-          <Meta title="Кузнецов Игорь Михайлович" />
+          <Meta title="Кузнецов Игорь" />
           <Meta title="17 августа 1988" />
         </Card>
       </section>
