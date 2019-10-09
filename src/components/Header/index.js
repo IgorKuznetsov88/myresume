@@ -16,7 +16,7 @@ class Header extends Component {
       <header style={myBackground} className="background-image">
         <h1>
           <p>Игорь </p>
-          <span className="surname"> К </span>
+          <span className="surname"> Кузнецов </span>
         </h1>
         
       </header>
