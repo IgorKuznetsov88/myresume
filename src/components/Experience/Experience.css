@@ -1,0 +1,12 @@
+.experience-col {
+    width: 100%;
+  }
+  .experience-col-items {
+    width: 100%;
+    text-align: center;
+  }
+  @media (max-width: 767px) {
+    .experience__title { font-size: .5em; }
+    .company-name { font-size: .5em; }
+    .company-name__specialization { font-size: .5em; }
+  }

@@ -1,0 +1,37 @@
+ nav {
+  margin-left: 0;
+  display: flex; 
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgb(0, 55, 132) 0%,
+    rgb(0, 2, 35) 50%,
+    rgb(0, 0, 17) 51%,
+    rgb(0, 33, 79) 100%
+  );
+  color: #0b2349;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 8px;
+  margin-top: 25px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  
+} 
+.navbar-toggler {
+  background-color: #ffffff;
+}
+.anchor-name {
+  font-family: 'Segoe UI',  sans-serif;
+  font-size: 2em;
+  color:rgba(252, 176, 69, 1);
+}

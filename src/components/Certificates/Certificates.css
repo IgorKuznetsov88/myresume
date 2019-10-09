@@ -1,0 +1,43 @@
+
+.carousel-wrapper {
+  max-width: 100vw;
+  margin:3%;
+}
+.ant-carousel .slick-slide {
+  align-items: center;
+  height: 200px;
+  line-height: 200px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-dots {
+  color: rgb(51, 167, 51);
+}
+.wrap-arrows-block {
+  display: flex;
+  align-content: space-between;
+}
+
+.left-arrow {
+  font-size: 30px;
+  justify-content: flex-end;
+}
+
+.right-arrow {
+  font-size: 30px;
+  justify-content: flex-start;
+}
+.sertificates_img {
+  height: 20em;
+  width: 30%;
+}
+
+
+
+@media (max-width: 767px) {
+  .sertificates_img {
+    height: 15em;
+    width: auto;
+  }
+}

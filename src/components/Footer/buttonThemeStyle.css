@@ -1,0 +1,55 @@
+.light {
+  width: auto;
+  height: 30px;
+  text-decoration: none;
+  color: #e0f0e0;
+  line-height: 20px;
+  font: normal 17px arial;
+}
+
+.light:not(.active) {
+  box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8),
+    inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3),
+    0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+  background-image: linear-gradient(#e0f0e0, #271739);
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #311d47;
+}
+
+.light:not(.active):hover,
+.light:not(.active):focus {
+  transition: color 200ms linear, text-shadow 500ms linear;
+  color: rgb(95, 127, 214);
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5),
+    0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
+}
+.light:not(:hover) {
+  transition: 0.6s;
+}
+
+.dark {
+  width: auto;
+  height: 30px;
+  text-decoration: none;
+  color: #e0f0e0;
+  line-height: 20px;
+  font: normal 17px arial;
+}
+
+.dark:not(.active) {
+  box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8),
+    inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3),
+    0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+  background-image: linear-gradient(#16111b, #0d0614);
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #311d47;
+}
+
+.dark:not(.active):hover,
+.dark:not(.active):focus {
+  transition: color 200ms linear, text-shadow 500ms linear;
+  color: rgb(243, 11, 11);
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5),
+    0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
+}
+.dark:not(:hover) {
+  transition: 0.6s;
+}

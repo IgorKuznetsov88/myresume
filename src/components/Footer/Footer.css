@@ -1,0 +1,48 @@
+h2 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 4em;
+  line-height: 1.25em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.wrapper {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.container-inner {
+  align-content: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 25%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+}
+a {
+  margin: 1em;
+}
+
+i {
+  color: black;
+  text-decoration: none;
+}
+i:hover {
+  color: #0b2349;
+}
+@media (max-width: 767px) {
+  .social-icons {
+    font-size: .7em;
+  }
+}
+@media (max-width: 767px) {
+  h2 {
+    font-size: 2em;
+  }
+}

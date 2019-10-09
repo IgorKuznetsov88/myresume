@@ -1,0 +1,6 @@
+@media (min-width: 991px) {
+  .about-title {
+    display: flex;
+    justify-content: center;
+  }
+}

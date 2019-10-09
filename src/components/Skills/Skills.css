@@ -1,0 +1,12 @@
+.skills-names {
+  font-size: 3em;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .skills__title {
+    font-size: 0.5em;
+  }
+  .skills-names {
+    font-size: 1em;
+  }
+}

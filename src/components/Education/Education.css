@@ -1,0 +1,12 @@
+.education-col {
+    width: 100%;
+  }
+  .education-col-items {
+    width: 100%;
+    text-align: center;
+  }
+  @media (max-width: 767px) {
+    .education__title { font-size: .5em; }
+    .university-name { font-size: .5em; }
+    .university-name__specialization { font-size: .5em; }
+  }
